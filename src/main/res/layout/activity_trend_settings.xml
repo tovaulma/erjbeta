@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WriteJournalActivity">
+
+    <Button
+        android:id="@+id/btnBackToSettingsFromTrendSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Settings" />
+
+    <TextView
+        android:id="@+id/textMultiplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Multiplier:" />
+
+    <SeekBar
+        android:id="@+id/seekBarMultiplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="77dp"
+        android:max="50"
+        android:min="10"/>
+
+    <TextView
+        android:id="@+id/textAnger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Anger:" />
+
+    <SeekBar
+        android:id="@+id/seekBarAnger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textContempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Contempt:" />
+
+    <SeekBar
+        android:id="@+id/seekBarContempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textDisgust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Disgust:" />
+
+    <SeekBar
+        android:id="@+id/seekBarDisgust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textFear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Fear:" />
+
+    <SeekBar
+        android:id="@+id/seekBarFear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textHappiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Happiness:" />
+
+    <SeekBar
+        android:id="@+id/seekBarHappiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textNeutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Neutral" />
+
+    <SeekBar
+        android:id="@+id/seekBarNeutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textSadness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Sadness:" />
+
+    <SeekBar
+        android:id="@+id/seekBarSadness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textSurprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Value for Surprise:" />
+
+    <SeekBar
+        android:id="@+id/seekBarSurprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:min="0"/>
+
+    <TextView
+        android:id="@+id/textViewSetTrendLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Trend Length:" />
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <NumberPicker
+        android:id="@+id/NumberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp" />
+
+    <Button
+        android:id="@+id/btnConfirmTrendSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Trend Settings" />
+
+
+</LinearLayout>

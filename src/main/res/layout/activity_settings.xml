@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <Button
+        android:id="@+id/btnGoToMainPageFromSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Page" />
+
+    <TextView
+        android:id="@+id/textSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/btnChangePasscode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Passcode" />
+
+    <Button
+        android:id="@+id/btnTrendSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trend Settings" />
+
+    <Button
+        android:id="@+id/btnBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export/Import" />
+</LinearLayout>

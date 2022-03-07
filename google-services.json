@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "705410541780",
+    "firebase_url": "https://ibcsia-5e543-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ibcsia-5e543",
+    "storage_bucket": "ibcsia-5e543.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705410541780:android:69ed190d26730117917341",
+        "android_client_info": {
+          "package_name": "com.example.iav7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705410541780-2tctl0k7rp1mt8ckec4395jscu6k4ihf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyAod5PlJ80pzYWrPonO_Tu80Kx1sNyEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705410541780-2tctl0k7rp1mt8ckec4395jscu6k4ihf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
