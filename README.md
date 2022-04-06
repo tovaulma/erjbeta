@@ -1,5 +1,4 @@
 # emotionrecognitionjournalapp
-This was an Android app that I created for my IB CS IA.
 I used Microsoft Azure Face Recognition API for the emotion recognition feature.
 You may use the app for non-commerical purposes.
 
