@@ -255,8 +255,8 @@ class ThreadDetectFace extends AsyncTask<String, Void, Response> {
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected Response doInBackground(String... info) {
-        final String subscriptionKey = "2c8834a4c9c4425b87d916b622819804";
-        final String endpoint = "facerecia.cognitiveservices.azure.com";
+        final String subscriptionKey = ""; //insert key and endpoint
+        final String endpoint = "";
         OkHttpClient client = new OkHttpClient();
 
         File picfile = new File(info[0]);
